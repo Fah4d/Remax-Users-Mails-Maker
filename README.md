@@ -1,4 +1,4 @@
-# Remax-UsernamesMaker
+# Remax-Users-Mails-Maker
 random users and mails maker With over a million domains And a hundred thousand names .
 
 ------------------------------------------
@@ -22,5 +22,4 @@ count: < The number of lines
 
 
 
-Coded By # Remax Alghamdi .
-============================
+# Coded By # Remax Alghamdi .
