@@ -36,7 +36,11 @@ mode = input("Enter the mode of list : ")
 def mode1():
     mode1_length = input('length: ')
     mode1_count = input('count: ')
-    if mode1_length == '1':
+    if mode1_length == '0':
+    	for i in range(0, int(mode1_count)):
+    		save.write(random.choice(Keywords)+'\n')
+    		print('status: '+str(i+1))
+    elif mode1_length == '1':
         for i in range(0, int(mode1_count)):
             save.write(random.choice(Keywords)+random.choice(default)+'\n')
             print('status: ' + str(i+1))
@@ -79,7 +83,11 @@ def mode1():
 def mode2():
     mode1_length = input('length: ')
     mode1_count = input('count: ')
-    if mode1_length == '1':
+    if mode1_length == '0':
+    	for i in range(0, int(mode1_count)):
+    		save.write(random.choice(Keywords)+"@"+random.choice(domains)+'\n')
+    		print('status: '+str(i+1))
+    elif mode1_length == '1':
         for i in range(0, int(mode1_count)):
             save.write(random.choice(Keywords)+random.choice(default)+"@"+random.choice(domains)+'\n')
             print('status: ' + str(i+1))
@@ -123,7 +131,11 @@ def mode3():
     domain = str(input("Your domain (Example : gmail.com) : "))
     mode1_length = input('length: ')
     mode1_count = input('count: ')
-    if mode1_length == '1':
+    if mode1_length == '0':
+    	for i in range(0, int(mode1_count)):
+    		save.write(random.choice(Keywords)+"@"+domain+'\n')
+    		print('status: '+str(i+1))
+    elif mode1_length == '1':
         for i in range(0, int(mode1_count)):
             save.write(random.choice(Keywords)+random.choice(default)+"@"+domain+'\n')
             print('status: ' + str(i+1))
