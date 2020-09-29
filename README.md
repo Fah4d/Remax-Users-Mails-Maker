@@ -7,7 +7,7 @@ This maker come with 3 types :
 3 - names with domain of your choice
 
 
-length: < The number of digits after the name
+length: < The number of digits after the name , 
 count: < The number of lines
 
 
