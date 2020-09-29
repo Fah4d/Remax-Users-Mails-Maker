@@ -1,6 +1,8 @@
 # Remax-UsernamesMaker
 random users and mails maker With over a million domains And a hundred thousand names .
 
+------------------------------------------
+
 This maker come with 3 types :
 
 1 - names only 
@@ -19,7 +21,5 @@ count: < The number of lines
 
 
 =============================
-
 Coded By # Remax Alghamdi .
-
 ============================
