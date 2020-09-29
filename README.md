@@ -11,6 +11,8 @@ This maker come with 3 types :
 
 
 
+
+
 length: < The number of digits after the name 
 
 count: < The number of lines
